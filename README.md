@@ -9,6 +9,9 @@ Simple keyboard Drum Kit controlled by key-events
 ### Clock
 Clock made by CSS and controlled by CSS-transform & JS
 
+### Controled CSS Vars
+Simple way to change your native CSS-variables dynamically
+
 
 
 

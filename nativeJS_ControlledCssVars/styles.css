@@ -1,0 +1,65 @@
+html,
+body{
+	margin: 0;
+	height: 100%;
+}
+img{
+	width: 100%;
+}
+
+:root{
+	font-size: 10px;
+	font-family: 'Arial';
+
+	--baseColor: #CC4352;
+	--spacing: 10px;
+	--blur: 4px;
+
+}
+
+
+.wrap{
+	max-width: 80rem;
+	width: 90%;
+	margin: 0 auto;
+
+	text-align: center;
+}
+	.title{
+		font-size: 4em;
+		margin-bottom: 1em;
+	}
+
+	.controls{
+		margin-bottom: 4rem;
+	}
+		.controls__label,
+		.controls__input{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.controls__label{
+			color: var(--baseColor);
+			font-size: 2rem;
+		}
+		.controls__input{
+			margin-left: 1rem;
+		}
+
+	.img__box{
+
+	}
+		.img{
+			padding: var(--spacing);
+			background-color: var(--baseColor);
+			filter: blur(var(--blur));
+			box-sizing: border-box;
+		}
+
+
+
+/* EXTRAS */
+	.hl{
+		color: var(--baseColor);
+		font-weight: bold;
+	}
