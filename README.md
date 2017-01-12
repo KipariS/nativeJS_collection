@@ -12,6 +12,13 @@ Clock made by CSS and controlled by CSS-transform & JS
 ### Controled CSS Vars
 Simple way to change your native CSS-variables dynamically
 
+### Arrays Practice#1
+Some exercises to understand how does Arrays Methods works
+* Array.prototype.filter()
+* Array.prototype.map()
+* Array.prototype.sort()
+* Array.prototype.reduce()
+
 
 
 
