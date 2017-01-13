@@ -19,6 +19,9 @@ Some exercises to understand how does Arrays Methods works
 * Array.prototype.sort()
 * Array.prototype.reduce()
 
+### Flex Image Gallery
+Fullpage view Image Gallery made by CSS-flexbox, animation and JS
+
 
 
 
