@@ -25,3 +25,26 @@ Fullpage view Image Gallery made by CSS-flexbox, animation and JS
 ### AjaxTypeAhead
 Simple Search-example, that show how to use fetch(url[, options])
 
+### Arrays Practice#2
+Some exercises to understand how does Arrays Methods works
+* Array.prototype.some()
+* Array.prototype.every()
+* Array.prototype.find()
+* Array.prototype.findIndex()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

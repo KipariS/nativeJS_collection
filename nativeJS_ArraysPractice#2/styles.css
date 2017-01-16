@@ -1,0 +1,44 @@
+html,
+body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	position: relative;
+}
+	.box{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		font-family: 'Arial';
+		font-weight: bold;
+		text-align: center;
+	}
+		.title{
+			color: #aaa;
+			font-size: 50px;
+			margin: 0px 0px 20px 0px;
+		}
+		.text{
+			color: #bbb;
+			font-size: 40px;
+			margin: 0px 0px 20px 0px;
+		}
+		.subtext{
+			color: #ccc;
+			font-size: 30px;
+			margin: 0px 0px 0px 0px;
+		}
+
+
+
+
+
+
+
+
+
+
+
