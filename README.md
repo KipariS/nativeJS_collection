@@ -22,6 +22,6 @@ Some exercises to understand how does Arrays Methods works
 ### Flex Image Gallery
 Fullpage view Image Gallery made by CSS-flexbox, animation and JS
 
-
-
+### AjaxTypeAhead
+Simple Search-example, that show how to use fetch(url[, options])
 
