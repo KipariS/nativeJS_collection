@@ -32,6 +32,9 @@ Some exercises to understand how does Arrays Methods works
 * Array.prototype.find()
 * Array.prototype.findIndex()
 
+### Canvas
+Basics of HTML5 Canvas drawing
+
 
 
 
