@@ -35,6 +35,9 @@ Some exercises to understand how does Arrays Methods works
 ### Canvas
 Basics of HTML5 Canvas drawing
 
+### CheckMultipleCheckboxes
+Script that allow you to check multiple checkboxes by holding Shift button
+
 
 
 
