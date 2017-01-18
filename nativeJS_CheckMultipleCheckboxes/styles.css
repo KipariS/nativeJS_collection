@@ -1,0 +1,52 @@
+html,
+body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	background-color: #C0FF3E;
+	padding-top: 5rem;
+}
+:root{font-size: 10px}
+
+
+
+
+.inbox{
+	max-width: 350px;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 0;
+	border-radius: 5px;
+
+	background-color: #fff;
+	font-family: 'Arial';
+}
+
+	.item{
+		list-style-type: none;
+
+		padding: 1rem 2rem;		
+		border-bottom: 1px solid #eee;
+	}
+		.label{
+			display: block;
+			cursor: pointer;
+			font-size: 2rem;
+		}
+			.check{
+				
+			}
+			.text{
+				margin-left: 1rem;
+			}
+
+
+
+
+
+
+
+
+
+
