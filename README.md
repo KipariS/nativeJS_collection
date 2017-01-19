@@ -1,6 +1,5 @@
 # nativeJS_examples
-
-**## Examples of simple useful stuff, which you can do on native(pure) JavaScript **
+## Examples of simple useful stuff, which you can do on native(pure) JavaScript
 
 
 ## Arrays Practice#1
@@ -11,6 +10,7 @@
 * Array.prototype.sort()
 * Array.prototype.reduce()
 
+
 ## Arrays Practice#2
 ### Some exercises to understand how does Arrays Methods works
 **What we use:**
@@ -18,6 +18,7 @@
 * Array.prototype.every()
 * Array.prototype.find()
 * Array.prototype.findIndex()
+
 
 ## DrumKit
 ### Simple keyboard Drum Kit controlled by key-events
@@ -34,20 +35,24 @@
 **What we use:**
 * Pure CSS Variables 
 
+
 ## Flex Image Gallery
 ### Fullpage view Image Gallery made by CSS-flexbox, animation and JS
 **What we use:**
 * CSS Flex Layout
+
 
 ## AjaxTypeAhead
 ### Simple Search-example, that show how to use fetch(url[, options])
 **What we use:**
 * fetch
 
+
 ## Canvas
 ### Basics of HTML5 Canvas drawing
 **What we use:**
 * HTML5 Canvas
+
 
 ## CheckMultipleCheckboxes
 ### Script, that allow you to check multiple checkboxes by holding Shift button
@@ -67,6 +72,7 @@
 * window.scrollPos
 * el.offset
 * window & element size
+
 
 ## CustomPlayer
 ### NOT FINISHED!
