@@ -1,0 +1,61 @@
+html,
+body{
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+	background-color: #c0ff3e;
+}
+:root{
+	font-size: 10px;
+	--imgPadding: 2rem;
+}
+
+
+.content{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+	.article{
+		padding: 2rem 3rem;
+		margin-bottom: 2rem;
+		background-color: #fff;
+		font-family: 'Arial';
+	}
+		.title{
+			font-size: 3rem;
+		}
+		.text{
+			font-size: 1.6rem;
+			line-height: 1.6;
+		}
+			.image{
+				padding-top: var(--imgPadding);
+				padding-bottom: var(--imgPadding);
+				opacity: 0;
+
+				transition: all 0.4s;
+			}
+			.image--left{
+				float: left;
+				padding-right: var(--imgPadding);
+				transform: translateX(-50%) scale(0.8);
+			}
+			.image--right{
+				float: right;
+				padding-left: var(--imgPadding);
+				transform: translateX(50%) scale(0.8);
+			}
+
+			.image.active{
+				opacity: 1;
+				transform: translateX(0%) scale(1);
+			}
+
+
+
+
+

@@ -1,6 +1,3 @@
-document.addEventListener('DOMContentLoaded', ready);
-
-
 function toggleOpenPanel() {
 	this.classList.toggle('open');
 }
@@ -12,10 +9,7 @@ function openHandler(e) {
 }
 
 
-function ready() {
-	const panels = document.querySelectorAll('.panel');
-	panels.forEach( (panel) => { panel.addEventListener('click', toggleOpenPanel) } )
-	panels.forEach( (panel) => { panel.addEventListener('transitionend', openHandler) } )
-
-}
+const panels = document.querySelectorAll('.panel');
+panels.forEach( (panel) => { panel.addEventListener('click', toggleOpenPanel) } )
+panels.forEach( (panel) => { panel.addEventListener('transitionend', openHandler) } )
 

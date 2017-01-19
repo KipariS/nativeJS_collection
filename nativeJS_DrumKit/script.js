@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', ready);
-
 function playSound(e) {
 	const audio = document.querySelector(`audio[data-key='${e.keyCode}']`);
 	const key = document.querySelector(`.key[data-key='${e.keyCode}']`);
@@ -16,13 +14,7 @@ function removeEffects(e) {
 	this.classList.remove('plaing');
 }
 
-function ready() {
+const keys = document.querySelectorAll(`.key[data-key]`);
+keys.forEach( (key) => {key.addEventListener('transitionend', removeEffects)} )
 
-	const keys = document.querySelectorAll(`.key[data-key]`);
-	keys.forEach( (key) => {key.addEventListener('transitionend', removeEffects)} )
-
-	window.addEventListener('keydown', playSound);
-
-
-}
-
+window.addEventListener('keydown', playSound);
