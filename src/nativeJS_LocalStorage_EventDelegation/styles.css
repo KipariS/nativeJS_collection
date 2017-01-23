@@ -1,0 +1,80 @@
+html,
+body{
+	margin: 0;
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	background: transparent url(img/bg.jpg) no-repeat;
+	background-position-x: 30%;
+	background-size: cover;
+	position: relative;
+}
+:root{
+	font-size: 10px;
+	font-family: "Arial";
+	color: #555;
+}
+
+
+.box{
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%, -50%);
+	
+	max-width: 30rem;
+	width: 100%;
+	background-color: #fff;
+	border: 5px solid rgba(255, 255, 255, 0.4);
+	padding: 2rem;
+}
+	.title{
+		text-align: center;
+		font-size: 2rem;
+		margin-top: 0;
+		color: #333;
+	}
+	.list{
+		list-style-type: none;
+		margin: 0;
+		padding-left: 0;
+		margin-bottom: 2rem;
+	}
+		.item{
+			font-size: 1.6rem;
+			margin-bottom: 1.5rem;
+		}
+
+	.add_form{
+		height: 4rem;
+	}
+		.new_item,
+		.add_btn{
+			height: 100%;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			vertical-align: middle;		
+			border: 1px solid #999;
+		}
+
+		.new_item{
+			width: calc(100% - 8rem);
+			border-right: none;
+		}
+		.new_item.err{
+			background-color: #ffe7e7;
+		}
+		.add_btn{
+			width: 8rem;
+			font-size: 2rem;
+			font-weight: bold;
+			cursor: pointer;
+
+		}
+
+
+
+
+

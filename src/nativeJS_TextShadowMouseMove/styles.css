@@ -1,0 +1,37 @@
+html,
+body{
+	margin: 0;
+	/* height: 100%; */
+}
+body{
+	
+}
+
+:root{font-size: 10px;}
+
+@font-face{
+	font-family: 'KBDT';
+	src: url('KBDunkTank.ttf') format('truetype');
+}
+
+.box{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.title{
+		font-size: 10rem;
+		font-family: 'KBDT';
+		color: #666;
+		margin: 0;
+	}
+
+
+
+
+
+
+
+
+

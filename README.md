@@ -23,29 +23,35 @@
 ## DrumKit
 ### Simple keyboard Drum Kit controlled by key-events
 **What we use:**
+* Audio elements
+* events: keyup, transitionend
 
 
 ## Clock
 ### Clock made by CSS and controlled by CSS-transform & JS
 **What we use:**
+* new Date()
 
 
 ## Controled CSS Vars
 ### Simple way to change your native CSS-variables dynamically
 **What we use:**
 * Pure CSS Variables 
+* event: change
 
 
 ## Flex Image Gallery
 ### Fullpage view Image Gallery made by CSS-flexbox, animation and JS
 **What we use:**
 * CSS Flex Layout
+* events: click, transitionend
 
 
 ## AjaxTypeAhead
 ### Simple Search-example, that show how to use fetch(url[, options])
 **What we use:**
 * fetch
+* events: change, keyup
 
 
 ## Canvas
@@ -62,6 +68,8 @@
 ## KONAMI CODE
 ### Script, that add some preset Konami-code and callback function when you type it
 **What we use:**
+* array: push, splice
+* events: keyup
 
 
 ## SlideOnScroll
@@ -72,6 +80,14 @@
 * window.scrollPos
 * el.offset
 * window & element size
+
+
+## LocalStorage&EventDeligation
+### Script allow you to add your favorite food to list and check it. All information will hold in localStorage.
+**What we use:**
+* dynamic add info from form (render)
+* localStorage (getItem, setItem, removeItem)
+* Event Deligation (checkboxHandler)
 
 
 ## CustomPlayer
