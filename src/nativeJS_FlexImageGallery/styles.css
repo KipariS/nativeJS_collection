@@ -12,7 +12,7 @@ h2,p{
 
 @font-face{
 	font-family: 'KBDT';
-	src: url('KBDunkTank.ttf') format('truetype');
+	src: url('../fonts/KBDunkTank.ttf') format('truetype');
 }
 
 .panels{
